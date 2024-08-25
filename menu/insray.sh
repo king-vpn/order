@@ -77,7 +77,7 @@ echo "" > /root/log-reboot.txt
 # Install Wondershaper
 cd /root/
 apt install wondershaper -y
-git clone https://github.com/magnific0/wondershaper.git >/dev/null 2>&1
+git clone https://github.com/king-vpn/wondershaper.git >/dev/null 2>&1
 cd wondershaper
 make install
 cd
@@ -121,15 +121,15 @@ install_ssl(){
 
 # install nginx
 mkdir -p /home/vps/public_html
-wget -q -O /etc/nginx/conf.d/vps.conf "https://raw.githubusercontent.com/Agunxzzz/XrayCol/main/vps.conf.txt"
+wget -q -O /etc/nginx/conf.d/vps.conf "https://raw.githubusercontent.com/king-vpn/order/main/vps.conf.txt"
 sleep 1
-wget -q -O xraymode.sh https://raw.githubusercontent.com/RifkyStoretuneling/stunnelvpn/momok/menu/xraymode.sh && chmod +x xraymode.sh && ./xraymode.sh
+wget -q -O xraymode.sh https://raw.githubusercontent.com/king-vpn/order/main/menu/xraymode.sh && chmod +x xraymode.sh && ./xraymode.sh
 sleep 1 
-wget -q -O /etc/xray/config.json "https://raw.githubusercontent.com/RifkyStoretuneling/stunnelvpn/momok/configuration/config.json"
+wget -q -O /etc/xray/config.json "https://raw.githubusercontent.com/king-vpn/order/main/configuration/config.json"
 chmod +x /etc/xray/config.json
 sleep 1 
 rm -f /etc/nginx/conf.d/xray.conf
-wget -q -O /etc/nginx/conf.d/xray.conf "https://raw.githubusercontent.com/RifkyStoretuneling/stunnelvpn/momok/configuration/xray.conf"
+wget -q -O /etc/nginx/conf.d/xray.conf "https://raw.githubusercontent.com/king-vpn/order/main/configuration/xray.conf"
 chmod +x /etc/nginx/conf.d/xray.conf
 
 # Installing Xray Service
@@ -177,7 +177,7 @@ systemctl restart xray >/dev/null 2>&1
 systemctl restart nginx >/dev/null 2>&1
 
 #LIMIT QUOTA
-wget -q -O /usr/local/sbin/quota "https://raw.githubusercontent.com/RifkyStoretuneling/stunnelvpn/momok/limit/quota.sh"
+wget -q -O /usr/local/sbin/quota "https://raw.githubusercontent.com/king-vpn/order/main/limit/quota.sh"
 chmod +x /usr/local/sbin/quota
 chmod +x /usr/local/sbin/quota
 cd /usr/local/sbin/
