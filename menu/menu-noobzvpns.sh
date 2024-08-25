@@ -36,7 +36,7 @@ export Auther="XdrgVPN"
 
 # status
 rm -rf /root/status
-wget -q -O /root/status "https://raw.githubusercontent.com/RifkyStoretuneling/stunnelvpn/momok/statushariini"
+wget -q -O /root/status "https://raw.githubusercontent.com/king-vpn/order/main/statushariini"
 
 
 function create(){
@@ -128,7 +128,7 @@ echo -e "\e[33;1m│\e[44;97;1m            • RENEW SUCCESFULLY •            
 echo -e "\e[33;1m└─────────────────────────────────────────────────┘\e[0m"
 echo "USERNAME: $user"
 echo -e "\e[33m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
-echo -e "\e[44;97;1m       RIFQI VPN TUNNELING         \e[0m"
+echo -e "\e[44;97;1m       VPN TUNNELING         \e[0m"
 echo -e "\e[33m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
 echo -e ""
 }
