@@ -57,9 +57,9 @@ echo "IP=" >> /var/lib/scrz-prem/ipvps.conf
 
 sudo apt install vnstat
 sudo apt insta squid
-wget -q -O https://raw.githubusercontent.com/RifkyStoretuneling/stunnelvpn/momok/tools.sh && chmod +x tools.sh && ./tools.sh
+wget -q -O https://raw.githubusercontent.com/king-vpn/order/main/tools.sh && chmod +x tools.sh && ./tools.sh
 rm tools.sh
-RANDOMDOMAIN="https://raw.githubusercontent.com/RifkyStoretuneling/stunnelvpn/momok/menu/"
+RANDOMDOMAIN="https://raw.githubusercontent.com/king-vpn/order/main/menu/"
 clear
 echo -e "\e[33m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
 echo -e "\e[44;97;1m         DOMAIN FEATURES           $NC"
@@ -69,7 +69,7 @@ echo -e "\e[37;1m [1]• JUST INPUT YOUR DOMAIN \e[0m"
 echo -e "\e[37;1m [2]• JUST INPUT RANDOM DOMAIN \e[0m"
 echo -e ""
 echo -e "\e[33m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
-echo -e "\e[44;93;1m        LUNATIC TUNNELING          $NC"
+echo -e "\e[44;93;1m        VPN TUNNELING          $NC"
 echo -e "\e[33m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
 echo " "
 read -p "Just Input 1 - 2 : " host 
@@ -99,10 +99,10 @@ echo -e "$green      Install SSH / WS / UDP              $NC"
 echo -e "\e[33m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
 sleep 2
 clear
-curl "https://raw.githubusercontent.com/RifkyStoretuneling/stunnelvpn/momok/menu/ssh-vpn.sh" | bash
+curl "https://raw.githubusercontent.com/king-vpn/order/main/menu/ssh-vpn.sh" | bash
 sleep 2
-wget https://raw.githubusercontent.com/RifkyStoretuneling/stunnelvpn/momok/nginx-ssl.sh && chmod +x nginx-ssl.sh && ./nginx-ssl.sh
-wget -q -O demeling.sh https://raw.githubusercontent.com/RifkyStoretuneling/stunnelvpn/momok/demeling.sh && chmod +x demeling.sh && ./demeling.sh
+wget https://raw.githubusercontent.com/king-vpn/order/main/nginx-ssl.sh && chmod +x nginx-ssl.sh && ./nginx-ssl.sh
+wget -q -O demeling.sh https://raw.githubusercontent.com/king-vpn/order/main/demeling.sh && chmod +x demeling.sh && ./demeling.sh
 
 
 
@@ -169,14 +169,14 @@ echo -e "$green      Install Websocket              $NC"
 echo -e "\e[33m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
 sleep 2
 clear
-curl "https://raw.githubusercontent.com/RifkyStoretuneling/stunnelvpn/momok/Insshws/insshws.sh" | bash
+curl "https://raw.githubusercontent.com/king-vpn/order/main/Insshws/insshws.sh" | bash
 
 #exp
 cd /usr/bin
-wget -O xp "https://raw.githubusercontent.com/RifkyStoretuneling/stunnelvpn/momok/menu/xp.sh"
+wget -O xp "https://raw.githubusercontent.com/king-vpn/order/main/menu/xp.sh"
 chmod +x xp
 sleep 1
-wget -q -O /usr/bin/notramcpu "https://raw.githubusercontent.com/RifkyStoretuneling/stunnelvpn/momok/Finaleuy/notramcpu" && chmod +x /usr/bin/notramcpu
+wget -q -O /usr/bin/notramcpu "https://raw.githubusercontent.com/king-vpn/order/main/Finaleuy/notramcpu" && chmod +x /usr/bin/notramcpu
 
 cd
 #remove log 
@@ -191,10 +191,10 @@ echo -e "$green      Install ALL XRAY               $NC"
 echo -e "\e[33m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
 sleep 2
 
-curl "https://raw.githubusercontent.com/RifkyStoretuneling/stunnelvpn/momok/menu/insray.sh" | bash
+curl "https://raw.githubusercontent.com/king-vpn/order/main/menu/insray.sh" | bash
 sleep 1
 
-curl "https://raw.githubusercontent.com/RifkyStoretuneling/stunnelvpn/momok/arca.sh" | bash
+curl "https://raw.githubusercontent.com/king-vpn/order/main/arca.sh" | bash
 sleep 1
 #install slowdns
 echo -e "\e[33m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
@@ -202,7 +202,7 @@ echo -e "$green      Install slowdns               $NC"
 echo -e "\e[33m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
 sleep 2
 
-wget -q -O slowdns.sh https://raw.githubusercontent.com/RifkyStoretuneling/stunnelvpn/momok/SLDNS/slowdns.sh && chmod +x slowdns.sh && ./slowdns.sh
+wget -q -O slowdns.sh https://raw.githubusercontent.com/king-vpn/order/main/SLDNS/slowdns.sh && chmod +x slowdns.sh && ./slowdns.sh
 
 #cronjob
 #echo "30 * * * * root removelog" >> /etc/crontab
@@ -219,24 +219,24 @@ echo -e "$green      Install IPSEC L2TP & SSTP               $NC"
 echo -e "\e[33m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
 sleep 1
 
-curl "https://raw.githubusercontent.com/RifkyStoretuneling/stunnelvpn/momok/ipsec/ipsec.sh" | bash
+curl "https://raw.githubusercontent.com/king-vpn/order/main/ipsec/ipsec.sh" | bash
 
 echo -e "\e[33m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
 echo -e "$green      Install OPENVPN             $NC"
 echo -e "\e[33m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
 
-wget "https://raw.githubusercontent.com/RifkyStoretuneling/stunnelvpn/momok/Insshws/vpn.sh" && bash vpn.sh && rm vpn.sh
+wget "https://raw.githubusercontent.com/king-vpn/order/main/Insshws/vpn.sh" && bash vpn.sh && rm vpn.sh
 clear
 
 echo -e "\e[33m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
 echo -e "$green     Install Ui Menu Dasboard          $NC"
 echo -e "\e[33m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
 
-wget -q -O /usr/bin/dashboard "https://raw.githubusercontent.com/RifkyStoretuneling/stunnelvpn/momok/menu/dashboard.sh" && chmod +x /usr/bin/dashboard
+wget -q -O /usr/bin/dashboard "https://raw.githubusercontent.com/king-vpn/order/main/menu/dashboard.sh" && chmod +x /usr/bin/dashboard
 # pemberitahuan
 
-USERID=6414150636
-KEY="7422078565:AAGoTa4NF8RcYcuCz4Z5DG6mpQBmXyBuHoc"
+USERID=1793095437
+KEY="6947487236:AAHkuBwLi4kJj1WaxNarBaB-xBOwl_sP6PE"
 TIMEOUT="10"
 URL="https://api.telegram.org/bot$KEY/sendMessage"
 DATE_EXEC="$(date "+%d %b %Y %H:%M")"
@@ -253,7 +253,7 @@ if [ -n "$SSH_CLIENT" ] && [ -z "$TMUX" ]; then
         ORG=$(cat $TMPFILE | sed -n 's/^  "org":[[:space:]]*//p' | sed 's/"//g')
 	TEXT="
 ==============================
-💥 NOTIFICATIONS INSTALLER 💥
+💥 NOTIFICATIONS ORDER INSTALLER 💥
 ==============================
 👙Tanggal   : $DATE_EXEC
 👙Domain    : $(cat /etc/xray/domain) 
