@@ -25,7 +25,7 @@ echo -e "\e[37;1m [04] • CREATE BOT NOTIFIKASI  \e[0m"
 echo -e "\e[31;1m [00] • GO BACK    \e[0m"
 echo -e "\e[33m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
 echo -e "\e[33m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
-echo -e "\e[44;97;1m       RIFQI VPN TUNNELING         \e[0m"
+echo -e "\e[44;97;1m       VPN TUNNELING         \e[0m"
 echo -e "\e[33m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
 echo -e ""
 read -p " Just Input :  "  opt
